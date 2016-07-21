@@ -8,7 +8,7 @@ To be specific, the 'sampleIMAGES.m' in Spares-Coding needs to be changed. The m
 
 As for ICA exercise, the code provided by UFLDL-Tutorial has bug in line-search implementation. Using 'backtracking' method, 'alpha' should change to be a smaller value (i.e. times 0.9) if there is no sufficient decrease, while 't' should be a constant. In practice, 't' is chosen to be quite small, say t = 1e-4.
 
-One problem is that, 'alpha' may become too small. So in my implementation, 'alpha' may go under 1e-20. This could be the point where the program should stop (this is not implemented in the program). It turns out program using line-search reaches a much better minimum within 500 iterations than gradient descent could achieve in 10,000 iterations. The weightMatrix picture is much better.
+One problem is that, 'alpha' may become too small. So in my implementation, 'alpha' may go under 1e-20 within about 300 iterations. This could be the point where the program should stop (this is not implemented in the program, I just stopped the program manually). It turns out program using line-search reaches a much better minimum within 500 iterations than gradient descent could achieve in 10,000 iterations. The weightMatrix picture is much better.
 
 The method to orthogonalize the weightMatrix also matters. (A\*A')^(-0.5)\*A mehthod gives better results than Gram-Schmidt method.
 
