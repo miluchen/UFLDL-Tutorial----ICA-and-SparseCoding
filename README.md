@@ -1,6 +1,6 @@
 # UFLDL-Tutorial
 
-The solutions for most of the exericises in [UFLDL-Tutorial](http://ufldl.stanford.edu/wiki/index.php/UFLDL_Tutorial) (the link is not working anymore) can be found easily. But I've had some issues when looking for the discussions about the last two additional exercises: Sparse-Coding and ICA. So here I am.
+The solutions for most of the exericises in [UFLDL-Tutorial](http://ufldl.stanford.edu/wiki/index.php/UFLDL_Tutorial) (the link is not working anymore, but you can look [here](https://github.com/yhfudev/doc-ml-ufldl) for a pdf version) can be found easily. But I've had some issues when looking for the discussions about the last two additional exercises: Sparse-Coding and ICA. So here I am.
 
 The code files downloaded from the UFLDL-Tutorial may have some bugs.
 
